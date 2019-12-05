@@ -63,7 +63,7 @@
         <!--END_MODULE LOCATION-->
 
         <!--BEGIN_MODULE BLUETOOTH-->
-        <config-file target="config.xml" parent="/*">
+        <!-- <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_Bluetooth">
                 <param name="ios-package" value="Diagnostic_Bluetooth" />
                 <param name="onload" value="true" />
@@ -85,7 +85,7 @@
 
         <config-file target="*-Info.plist" parent="NSBluetoothAlwaysUsageDescription">
             <string>This app requires constant Bluetooth access to function properly.</string>
-        </config-file>
+        </config-file> -->
         <!--END_MODULE BLUETOOTH-->
 
         <!--BEGIN_MODULE WIFI-->
